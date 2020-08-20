@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: segoe UI;
+	font-size: 13px;
+	
+}
+
+.lable-register {
+	width: 100%;
+	color: #000;
+	font-size: 18px;
+	font-weight: 1000;
+	text-align: center;
+	border: 0px solid;
+}
+.wrapper {
+	width: 90%;
+	margin: auto;
+}
+
+.div-register, #tbl-register {
+	width: 100%;
+	margin: auto;
+}
+
+#tbl-register, td, th {
+	padding: 5px;
+}
+
+#tbl-register td:nth-child(odd) {
+	text-align: right;
+	width: 25%;
+}
+
+input[type=text], input[type=password], input[type=email] {
+	width: 100%;
+	padding: 6px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+button {
+	background: #0073e6;
+	border: 0px;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.button1{
+	color:blue;
+	background: white;
+	padding-left: 15px;
+}
+
+button:hover {
+	background: #006600;
+	color: white;
+}
+
+button:active {
+	background: red;
+}
+
+.lable-result {
+	text-align: left;
+	font-weight: 1000;
+}
+
+span {
+	color: red;
+}
+
+#error {
+	text-align: center;
+	color: red;
+}
+
+.div-result {
+	width: 100%;
+	margin: 0px auto;
+}
+
+.tbl-result {
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: auto;
+}
+
+.tbl-result thead {
+	background: #ccc;
+}
+
+.tbl-result th, .tbl-result td {
+	padding: 5px;
+	text-align: center;
+}

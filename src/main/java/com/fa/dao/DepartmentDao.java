@@ -52,8 +52,6 @@ public class DepartmentDao {
 				LogFactory.getLogger().error(e.getMessage());
 			}
 		}
-		
 		return list;
-		
 	}
 }
